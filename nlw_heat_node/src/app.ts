@@ -19,8 +19,6 @@ io.on("connection", socket => {
   console.log(`Usuario Conectado @ ${socket.id}`);
 });
 
-// CHECAR A PORRA TODA EM 1:25:00 AULA 1
-
 app.use(express.json());
 app.use(router);
 
